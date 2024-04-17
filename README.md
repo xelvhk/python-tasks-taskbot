@@ -4,4 +4,6 @@ Telegram taskbot made on Python with Telebot API and some code of Netology Pytho
 Taskbot based on Telebot library.
 
 NEW >>> Added some tasks for students of Hexlet College.
+- if / else
 - while and for loops
+
