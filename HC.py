@@ -1,20 +1,19 @@
-#====== Задание 1. Калькулятор =============
+#====== Task 1. Simple calculator =============
 # a = int(input("Enter the first number: "))
 # b = int(input("Enter the second number: "))
 # m = input("Enter the operator:")
 # if m == "+":
-#   print(f"Сумма: {a+b}")
+#   print(f"Sum: {a+b}")
 # elif m == "-":
-#   print(f"Разность: {a-b}")
+#   print(f"Difference: {a-b}")
 # elif m == "*":
-#   print(f"Произведение: {a*b}")
+#   print(f"Product: {a*b}")
 # elif m == "/":
-#   print(f"Частное: {a/b}")
+#   print(f"Quotient: {a/b}")
 # else:
 #   print("Invalid operator")
-# # print (f"Произведение: {a*b}, Сумма: {a+b}, Разность: {a-b}, Частное: {a/5}")
 
-#====== Задание 2. Високосный год =============
+#====== Task 2. Високосный год =============
 # year = int(input("Enter the year: "))
 # if year % 4 != 0:
 #   print(f"Год {year} не является високосным")
@@ -26,12 +25,12 @@
 # else:
 #   print(f"Год {year} является високосным")
 
-#====== Задание 3. Шахматная доска ============
+#====== Task 3. Chessboard ============
 # for i in range (4):
 #   print('* * * * ')
 #   print(' * * * *')
 
-#====== Задание 4. Сумма цифр трехзначного числа =============
+#====== Task 4. Sum of digits of a three-digit number =============
 # num = int(input("Enter the number: "))
 # while (num != 0):
 #   if num > 99 and num < 1000:
@@ -43,3 +42,22 @@
 #     print("Invalid number, try again")
 #   num = int(input("Enter the new number or type 0 for exit: "))
 # print("Ok, bye")
+
+#========= Task 5. Training schedule ==========
+# dist = 10
+# days = 0
+# while (dist < 25):
+#   dist = dist + dist * 0.1
+#   days += 1
+#   print(f'{days} days, {dist} km')
+# print(f"The athlete needs {days} days")
+
+#========= Task 6. Identifying positive and negative numbers ==========
+# num = int(input('Enter the number: '))
+# while (num != 0):
+#   if num > 0:
+#     print('number is positive')
+#   elif num < 0:
+#     print('number is negative')
+#   num = int(input('Enter the new number or  type 0 for exit'))
+# print('It's 0, bye')
