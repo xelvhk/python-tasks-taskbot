@@ -61,3 +61,26 @@
 #     print('number is negative')
 #   num = int(input('Enter the new number or  type 0 for exit'))
 # print('It's 0, bye')
+
+#========= Task 7. Multiples of 3 ==========
+# for i in range(3, 100, 3):
+#   print(i)
+#========= Task 8. Multiples of 3. Reverse order ==========
+# for i in range(99, 0, -3):
+#   print(i)
+#========= Task 9. Adding and removing elements from list with append and remove methods ==========
+# first_arr = []
+# for i in range (10):
+#   if i % 2 == 0:
+#     first_arr.append(i)
+# print(first_arr)
+
+# # for i in range (len(first_arr)):
+# #   if i == len(first_arr) - 1:
+# #     first_arr.remove(first_arr[i])
+# # print(first_arr)
+
+# sum = 0
+# for i in range (len(first_arr)):
+#   sum+=first_arr[i]
+# print(sum)
