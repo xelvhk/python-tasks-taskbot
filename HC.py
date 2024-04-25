@@ -65,9 +65,11 @@
 #========= Task 7. Multiples of 3 ==========
 # for i in range(3, 100, 3):
 #   print(i)
+
 #========= Task 8. Multiples of 3. Reverse order ==========
 # for i in range(99, 0, -3):
 #   print(i)
+
 #========= Task 9. Adding and removing elements from list with append and remove methods ==========
 # first_arr = []
 # for i in range (10):
@@ -80,7 +82,18 @@
 # #     first_arr.remove(first_arr[i])
 # # print(first_arr)
 
+#========= Task 10. Sum of list elements ==========
 # sum = 0
 # for i in range (len(first_arr)):
 #   sum+=first_arr[i]
 # print(sum)
+
+#========= Task 10. Case inversion ==========
+# word = "HeLLo"
+# result = ""
+# for i in word:
+#   if i.isupper():
+#     result += i.lower()
+#   else:
+#     result += i.upper(  )
+# print(result)
