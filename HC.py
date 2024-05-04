@@ -13,19 +13,19 @@
 # else:
 #   print("Invalid operator")
 
-#====== Task 2. Високосный год =============
+#====== Task 2. Leap year =============
 # year = int(input("Enter the year: "))
 # if year % 4 != 0:
-#   print(f"Год {year} не является високосным")
+#   print(f"Year {year} is not leap")
 # elif year % 100 == 0:
 #   if year % 400 == 0:
-#     print(f"Год {year} является високосным")
+#     print(f"Year {year} is leap")
 #   else:
-#     print(f"Год {year} не является високосным")
+#     print(f"Year {year} is not leap")
 # else:
-#   print(f"Год {year} является високосным")
+#   print(f"Year {year} is leap")
 
-#====== Task 3. Chessboard ============
+#====== Task 3. Chessboard. V.1 ============
 # for i in range (4):
 #   print('* * * * ')
 #   print(' * * * *')
@@ -88,7 +88,7 @@
 #   sum+=first_arr[i]
 # print(sum)
 
-#========= Task 10. Case inversion ==========
+#========= Task 11. Case inversion ==========
 # word = "HeLLo"
 # result = ""
 # for i in word:
@@ -97,3 +97,21 @@
 #   else:
 #     result += i.upper(  )
 # print(result)
+
+#========= Task 12. URL normalization ==========
+# url = input("Введите URL: ")
+# result = ""
+# if "https://" in url:
+#   result = url
+# elif "http://" in url:
+#   result = "https://" + url[7:]
+# else:
+#   result = "https://" + url
+# print(result)
+
+#========= Task 13. Сreating a dictionary to record word lengths ==========
+# dict = {}
+# for i in range(int(input("Сколько слов? "))):
+#   word = input("Enter a word: ")
+#   dict[word] = len(word)
+# print(dict)
