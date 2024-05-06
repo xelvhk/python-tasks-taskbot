@@ -3,7 +3,7 @@
 Telegram taskbot made on Python with Telebot API.
 Also solutions to several practical tasks
 
-NEW >>> Added some tasks for students of Hexlet College (HC.py)
+### NEW >>> Added some tasks for students of Hexlet College (HC.py)
 - Simple calculator
 - Checking leap year
 - Sum of digits of a three-digit number
