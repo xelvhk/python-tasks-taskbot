@@ -59,7 +59,7 @@
 #     print('number is positive')
 #   elif num < 0:
 #     print('number is negative')
-#   num = int(input('Enter the new number or  type 0 for exit'))
+#   num = int(input('Enter the new number or  type 0 for exit: '))
 # print('It's 0, bye')
 
 #========= Task 7. Multiples of 3 ==========
@@ -95,7 +95,7 @@
 #   if i.isupper():
 #     result += i.lower()
 #   else:
-#     result += i.upper(  )
+#     result += i.upper()
 # print(result)
 
 #========= Task 12. URL normalization ==========
@@ -117,10 +117,10 @@
 # print(dict)
 
 
-#========= Task 13. Сhecking for closing parentheses ==============
+#========= Task 14. Сhecking for closing parentheses ==============
 # def isBalanced():
 #   balance = 0
-#   text = str(input("Enter the string"))
+#   text = str(input("Enter the string: "))
 #   for i in range(len(text)):
 #     if text[i] == "(":
 #       balance += 1
@@ -136,3 +136,16 @@
 #     return "not all parentheses are closed"
 
 # print(isBalanced())
+
+#========= Task 15. Happy ticket ==============
+# def happy_ticket():
+#   ticket = input("Enter the ticket number:")
+#   left_part = ticket[3:]
+#   right_part = ticket[:3]
+
+#   if sum(map(int, left_part)) == sum(map(int, right_part)):
+#     return "Yeah!"
+#   else:
+#     return "Don't worry. Choose the nesxt one"
+
+# print(happy_ticket())
