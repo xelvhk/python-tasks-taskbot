@@ -16,3 +16,4 @@ Also solutions to several practical tasks
 - Case inversion
 - URL normalization
 - Сreating a dictionary to record word lengths
+- Happy ticket
