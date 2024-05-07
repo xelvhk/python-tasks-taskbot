@@ -111,7 +111,28 @@
 
 #========= Task 13. Сreating a dictionary to record word lengths ==========
 # dict = {}
-# for i in range(int(input("Сколько слов? "))):
+# for i in range(int(input("Number of words? "))):
 #   word = input("Enter a word: ")
 #   dict[word] = len(word)
 # print(dict)
+
+
+#========= Task 13. Сhecking for closing parentheses ==============
+# def isBalanced():
+#   balance = 0
+#   text = str(input("Enter the string"))
+#   for i in range(len(text)):
+#     if text[i] == "(":
+#       balance += 1
+#     elif text[i] == ")":
+#       balance -= 1
+#   print(balance)
+  
+#   if balance < 0:
+#     return "not all parentheses are open"
+#   elif balance == 0:
+#     return "all ok"
+#   else:
+#     return "not all parentheses are closed"
+
+# print(isBalanced())
