@@ -17,3 +17,4 @@ Also solutions to several practical tasks
 - URL normalization
 - Сreating a dictionary to record word lengths
 - Happy ticket
+- Searching for nearest location
