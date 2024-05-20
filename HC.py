@@ -1,8 +1,3 @@
-#====== Task 3. Chessboard. V.1 ============
-# for i in range (4):
-#   print('* * * * ')
-#   print(' * * * *')
-
 #====== Task 4. Sum of digits of a three-digit number =============
 # num = int(input("Enter the number: "))
 # while (num != 0):
