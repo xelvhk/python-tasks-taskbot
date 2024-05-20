@@ -1,25 +1,3 @@
-#====== Task 4. Sum of digits of a three-digit number =============
-# num = int(input("Enter the number: "))
-# while (num != 0):
-#   if num > 99 and num < 1000:
-#     first = num // 100
-#     second = num % 100 // 10
-#     third = num % 10
-#     print(f"Sum of digits: {first + second + third}")
-#   else:
-#     print("Invalid number, try again")
-#   num = int(input("Enter the new number or type 0 for exit: "))
-# print("Ok, bye")
-
-#========= Task 5. Training schedule ==========
-# dist = 10
-# days = 0
-# while (dist < 25):
-#   dist = dist + dist * 0.1
-#   days += 1
-#   print(f'{days} days, {dist} km')
-# print(f"The athlete needs {days} days")
-
 #========= Task 6. Identifying positive and negative numbers ==========
 # num = int(input('Enter the number: '))
 # while (num != 0):
