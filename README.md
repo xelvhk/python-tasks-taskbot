@@ -5,7 +5,7 @@ Also solutions to several practical tasks
 
 ### NEW >>> Added some tasks for students of Hexlet College (HC.py)
 ## Content:
-- Simple calculator
+- <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/1%20-%20Calculator.py">Simple calculator</a>
 - Checking leap year
 - Sum of digits of a three-digit number
 - Training schedule
