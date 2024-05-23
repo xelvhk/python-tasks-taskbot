@@ -1,24 +1,3 @@
-#========= Task 11. Case inversion ==========
-# word = "HeLLo"
-# result = ""
-# for i in word:
-#   if i.isupper():
-#     result += i.lower()
-#   else:
-#     result += i.upper()
-# print(result)
-
-#========= Task 12. URL normalization ==========
-# url = input("Введите URL: ")
-# result = ""
-# if "https://" in url:
-#   result = url
-# elif "http://" in url:
-#   result = "https://" + url[7:]
-# else:
-#   result = "https://" + url
-# print(result)
-
 #========= Task 13. Сreating a dictionary to record word lengths ==========
 # dict = {}
 # for i in range(int(input("Number of words? "))):
