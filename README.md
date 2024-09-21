@@ -19,3 +19,5 @@ Also solutions to several practical tasks.
 - <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/14%20-%20%D0%A1hecking%20for%20closing%20parentheses.py">Сhecking for closing parentheses</a>
 - <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/15%20-%20Happy%20ticket.py">Happy ticket</a>
 - <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/16%20-%20Searching%20for%20nearest%20coordinates.py">Searching for nearest location</a>
+- <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/17%20-%20Palindrome.py">Palindrome check</a>
+- <a href="https://github.com/xelvhk/python-tasks-taskbot/blob/main/18%20-%20Reverse%20words%20in%20a%20string.py">Reverse words in a string</a>
